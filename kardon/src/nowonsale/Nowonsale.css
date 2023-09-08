@@ -1,0 +1,93 @@
+ .section2{
+    height: 90vh;
+    background: red;
+}
+.section2 img{
+    width: 200px;
+     margin-left: 10%;
+}
+
+.allproduct-flex{
+    display: grid;
+    grid-template-columns: 4fr 1.5fr 1fr;
+}
+.allproduct-flex h2{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+.allproduct-flex a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+}
+.allproduct-flex a:hover{
+    
+    color: black;
+}
+.allproduct-flex h3{
+    font-size: 30px;
+}
+.allproduct-flex i{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.section2 img{
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.section2 .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .d1{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(190, 178, 178);
+}
+.section2 .d2{
+    margin-top: -5px;
+    font-size: 20px;
+    color: rgb(36, 21, 21);
+}
+.section2 .d3{
+    margin-top: -5px;
+    font-size: 15px;
+    color: rgb(190, 178, 178);
+    text-decoration: line-through;
+}
+.section2 .d4{
+    margin-top: -15px;
+    font-size: 15px;
+    color: rgb(36, 21, 21);
+}
+.section2 .d4-flex{
+    display: flex;
+}
+.section2 .d4-flex .d4-flex-icon{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: -13px;
+}
+
+@media only screen and (max-width: 992px) {
+    .section2{
+        height: 150vh;
+        background: yellow;
+    }
+    .section2 .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .section2{
+        height: 160vh;
+        background: green;
+    }
+}

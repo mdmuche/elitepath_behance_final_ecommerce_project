@@ -1,0 +1,71 @@
+.sofas-page{
+    border: 1px solid black;
+    padding: 0.5rem 15%;
+    background-color: greenyellow;
+}
+.sofas-grid{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    height: 86%;
+}
+.sofas-grid img{
+    width: 100%;
+    height: 30vh;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.d1{
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(190, 178, 178);
+}
+.d2{
+    margin-top: -5px;
+    font-size: 20px;
+    color: rgb(36, 21, 21);
+}
+.d3{
+    margin-top: -5px;
+    font-size: 15px;
+    color: rgb(190, 178, 178);
+    text-decoration: line-through;
+}
+.d4{
+    margin-top: -15px;
+    font-size: 15px;
+    color: rgb(36, 21, 21);
+}
+.d4-flex{
+    display: flex;
+}
+.d4-flex .d4-flex-icon{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: -13px;
+}
+
+/* @media only screen and (max-width: 900px){
+    .sofas-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+} */
+
+/* @media only screen and (max-width: 769px) {
+    .sofas-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+} */
+@media only screen and (max-width: 450px) {
+    .sofas-grid{
+        grid-template-columns: 1fr;
+    }
+    
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**********section1**************/
+.section1{
+    display: flex;
+    justify-content: center;
+    background: black;
+    height: 80vh;
+    gap: 20px;
+}
+.section1 img{
+    width: 450px;
+    height: 350px;
+    margin-top: 7rem;
+}
+.section1 .explore{
+    color: white;
+    margin-top: 9rem;
+}
+.section1 .explore h2{
+    font-size: 40px;
+}
+.section1 .explore p{
+    color: gray;
+}
+.section1 .explore button{
+    background: orange;
+    padding: 0.5rem 5%;
+    border: none;
+    border-radius: 3px;
+}
+
+
+@media only screen and (max-width: 769px) {
+    
+    /**********mobile responsiveness for section1**************/
+    .section1{
+        height: 100vh;
+    }
+    .section1{
+        display: block;
+    }
+    .section1 img{
+        width: 400px;
+        height: 350px;
+        margin: 2rem 10% 0 10%;
+    }
+    .section1 .explore{
+        margin: 2rem 5% 0 5%;
+    }
+    .section2 img{
+        margin-left: 0%;
+    }
+}
+
+
+ @media only screen  and (max-width: 450px){
+    .section1 img{
+        width: 80vw;
+        height: 350px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .section1 .explore button{
+        padding: 0rem 5%;
+    }
+} 

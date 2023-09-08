@@ -1,0 +1,120 @@
+.section6{
+    height: 130vh;
+    background: yellowgreen;
+}
+
+.allproduct-flex{
+    display: grid;
+    grid-template-columns: 4fr 1.5fr 1fr;
+}
+.allproduct-flex h2{
+    margin-top: 50px;
+    margin-left: 15%;
+}
+.allproduct-flex a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+}
+.allproduct-flex a:hover{
+    
+    color: black;
+}
+.allproduct-flex h3{
+    font-size: 30px;
+}
+.allproduct-flex i{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+.section6 img{
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.section6 .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section6 .d1{
+    margin-top: 10px;
+    margin-right: 100px;
+    font-size: 17px;
+    color: rgb(190, 178, 178);
+}
+.section6 .d2{
+    margin-top: -5px;
+    margin-right: 100px;
+    font-size: 15px;
+    color: rgb(36, 21, 21);
+}
+.section6 .d3{
+    margin-top: -5px;
+    font-size: 15px;
+    color: rgb(190, 178, 178);
+    text-decoration: line-through;
+}
+.section6 .d4{
+    margin-top: -15px;
+    font-size: 15px;
+    color: rgb(36, 21, 21);
+}
+.section6 .d4-flex{
+    display: flex;
+}
+.section6 .d4-flex .d4-flex-icon{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: -13px;
+}
+.section6 button{
+    background: black;
+    color: white;
+    font-size: 20px;
+    border: 1px solid brown;
+    border-radius: 9px;
+    padding: 0.5rem 5%;
+    margin: 1rem 40%;
+    
+}
+@media only screen and (max-width: 992px) {
+    .section6{
+        height: 225vh;
+        background: yellow;
+    }
+    .section6 .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section6 .d1{
+        margin-left: 10%;
+    }
+    .section6 .d2{
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .section6{
+        height: 225vh;
+        background: green;
+    }
+    .section6 .d1{
+        /* margin-right: 100px; */
+        font-size: 12px;
+    }
+    .section6 .d2{
+        /* margin-top: -5px;
+        margin-right: 100px; */
+        font-size: 11px;
+        /* color: rgb(36, 21, 21); */
+    }
+    .section6 button{
+        padding: 0rem 15%;
+        
+    }
+}

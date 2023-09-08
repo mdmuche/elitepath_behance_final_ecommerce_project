@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.section5{
+    background-color: black;
+    height: 80vh;
+    padding: 2rem 15%;
+}
+ .section5 h1{
+    color: grey;
+    margin: 0rem 0 3rem 20%;
+    font-size: 25px !important;
+    font-style: italic;
+}
+.section5 .span-button{
+   display: flex;
+   margin-left: 30%;
+}
+.section5 .ted-havkin{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section5 h2 .emphasis{
+    color: grey;
+    font-size: 20px;
+}
+.new-button{
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+    padding: 0.5rem;
+    margin-left: 20%;
+}
+.section5 .p-rect{
+    color: grey;
+    margin-left: 30%;
+    margin-top: -10px;
+}
+.section5 .ted{
+    text-transform: uppercase;
+}
+.new-img{
+    width: 100%;
+    height: 300px;
+    /* margin: 0.5rem 10%; */
+}
+@media only screen and (max-width: 550px){
+    .section5{
+        height: 90vh;
+    }
+    .section5 .span-button{
+        margin-left: 0%;
+        margin-bottom: 20px;
+     }
+}
